@@ -8,7 +8,7 @@ const OurServices = () => {
                 {/* Section Heading */}
                 <div className="mb-12">
                     <h2 className="text-4xl font-bold text-[#004B49]">
-                        Our Services
+                        Services At your Fingertips
                     </h2>
                     <p className="mt-3 text-gray-600 max-w-3xl">
                         Neaten provides expert cleaning services for both commercial and residential spaces.

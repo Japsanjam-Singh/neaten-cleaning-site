@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom"
+
 const HeroSection = () => {
     return (
         <section className="relative w-full h-[95vh] flex items-center overflow-hidden">
@@ -5,7 +7,7 @@ const HeroSection = () => {
           {/* Background Image */}
           <div className="absolute inset-0">
             <img 
-              src="/cleaning.jpg" 
+              src="/janitorial.jpg" 
               alt="Professional Cleaning" 
               className="w-full h-full object-cover"
             />
@@ -27,9 +29,9 @@ const HeroSection = () => {
                 Eco-friendly, reliable, and 100% satisfaction guaranteed.
               </p>
               <div className="mt-6">
-                <a href="#" className="bg-[#004B49] text-white px-6 py-3 rounded-md hover:bg-[#02665E] transition">
+                <Link to='/quote' className="bg-[#004B49] text-white px-6 py-3 rounded-md hover:bg-[#02665E] transition">
                   Get a Free Quote
-                </a>
+                </Link>
               </div>
             </div>
 

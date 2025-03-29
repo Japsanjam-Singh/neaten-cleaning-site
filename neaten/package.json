@@ -1,7 +1,7 @@
 {
   "name": "neaten",
-  "homepage": "https://Japsanjam-Singh.github.io/Neaten",
-  "private": true,
+"homepage": "https://Japsanjam-Singh.github.io/neaten-cleaning" ,
+  "private": false,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
