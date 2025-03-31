@@ -1,54 +1,55 @@
 import React, { useState } from 'react';
 
 function QuoteForm() {
-    const [formData, setFormData] = useState({
-        name: '',
-        email: '',
-        phone: '',
-        typeOfCleaning: '',
-        location: '',
-        message: '',
-        referral: ''
-    });
-    const [submitted, setSubmitted] = useState(false);
+  const [formData, setFormData] = useState({
+    name: '',
+    email: '',
+    phone: '',
+    typeOfCleaning: '',
+    location: '',
+    message: '',
+    referral: ''
+  });
 
-    const handleChange = (e) => {
-        const { name, value } = e.target;
-        setFormData((prev) => ({ ...prev, [name]: value }));
-    };
+  const [submitted, setSubmitted] = useState(false); // ✅ move this UP
 
-    const handleSubmit = async (e) => {
-        e.preventDefault();
-    
-        try {
-            const response = await fetch("https://neaten-backend.onrender.com", {
-                method: "POST",
-                headers: {
-                    "Content-Type": "application/json"
-                },
-                body: JSON.stringify(formData)
-            });
-    
-            if (response.ok) {
-                setSubmitted(true);
-                setFormData({
-                    name: '',
-                    email: '',
-                    phone: '',
-                    typeOfCleaning: '',
-                    location: '',
-                    message: '',
-                    referral: ''
-                });
-            } else {
-                alert("Oops! Something went wrong. Please try again later.");
-            }
-            
-        } catch (error) {
-            console.error("Error submitting form:", error);
-            alert("Server error. Please try again later.");
-        }
-    };
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setFormData((prev) => ({ ...prev, [name]: value }));
+  };
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+
+    try {
+      const response = await fetch("https://neaten-backend.onrender.com", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json"
+        },
+        body: JSON.stringify(formData)
+      });
+
+      if (response.ok) {
+        setSubmitted(true);
+        setFormData({
+          name: '',
+          email: '',
+          phone: '',
+          typeOfCleaning: '',
+          location: '',
+          message: '',
+          referral: ''
+        });
+      } else {
+        alert("Oops! Something went wrong. Please try again later.");
+      }
+
+    } catch (error) {
+      console.error("Error submitting form:", error);
+      alert("Server error. Please try again later.");
+    }
+  };
 
 
     return (
