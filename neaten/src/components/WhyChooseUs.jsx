@@ -7,7 +7,7 @@ const WhyChooseUs = () => {
                 
                 {/* Left Side: Text & Features */}
                 <div>
-                    <h2 className="text-4xl font-bold text-[#004B49]">
+                    <h2 className="text-4xl font-bold text-[#3e2b8a]">
                         Why Choose Neaten?
                     </h2>
                     <p className="mt-4 text-gray-600">
@@ -19,7 +19,7 @@ const WhyChooseUs = () => {
                     <div className="mt-6 space-y-6">
                         {/* Feature 1 */}
                         <div className="flex items-center space-x-4">
-                            <Leaf className="h-8 w-8 text-[#004B49]" />
+                            <Leaf className="h-8 w-8 text-[#5739bb]" />
                             <p className="text-gray-700 font-medium">
                                 <span className="font-semibold">Eco-Friendly & Safe</span> – We use non-toxic, eco-friendly cleaning solutions.
                             </p>
@@ -27,7 +27,7 @@ const WhyChooseUs = () => {
 
                         {/* Feature 2 */}
                         <div className="flex items-center space-x-4">
-                            <ShieldCheck className="h-8 w-8 text-[#004B49]" />
+                            <ShieldCheck className="h-8 w-8 text-[#5739bb]" />
                             <p className="text-gray-700 font-medium">
                                 <span className="font-semibold">Certified & Trusted Team</span> – Trained professionals with years of experience.
                             </p>
@@ -35,7 +35,7 @@ const WhyChooseUs = () => {
 
                         {/* Feature 3 */}
                         <div className="flex items-center space-x-4">
-                            <Clock className="h-8 w-8 text-[#004B49]" />
+                            <Clock className="h-8 w-8 text-[#5739bb]" />
                             <p className="text-gray-700 font-medium">
                                 <span className="font-semibold">Flexible Scheduling</span> – We work around your schedule, offering 24/7 service.
                             </p>
@@ -43,7 +43,7 @@ const WhyChooseUs = () => {
 
                         {/* Feature 4 */}
                         <div className="flex items-center space-x-4">
-                            <Star className="h-8 w-8 text-[#004B49]" />
+                            <Star className="h-8 w-8 text-[#5739bb]" />
                             <p className="text-gray-700 font-medium">
                                 <span className="font-semibold">100% Satisfaction Guarantee</span> – We ensure top-quality service every time.
                             </p>

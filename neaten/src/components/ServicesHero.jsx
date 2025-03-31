@@ -10,7 +10,8 @@ const ServicesHero = () => {
         {/* Left Side: Text Content */}
         <div className="max-w-lg">
           <h1 className="text-6xl font-extrabold leading-tight tracking-tight">
-            Transform Your Space with <span className="text-[#00A896]">Expert Cleaning</span>
+            Transform Your Space with <span className="text-[#6a4dd5]">Expert Cleaning</span>
+
           </h1>
           <p className="mt-4 text-lg text-gray-300 leading-relaxed">
   <strong>Neaten</strong> has been delivering <strong>top-tier cleaning services</strong> <s> </s>

@@ -7,7 +7,7 @@ const HowItWorks = () => {
                 
                 {/* Section Heading with More Engaging Tagline */}
                 <div className="mb-12">
-                    <h2 className="text-4xl font-bold text-[#004B49]">
+                    <h2 className="text-4xl font-bold text-[#3e2b8a]">
                         Your Cleaning Journey, Simplified
                     </h2>
                     <p className="mt-3 text-gray-600 max-w-3xl">
@@ -23,10 +23,10 @@ const HowItWorks = () => {
                     <div className="flex flex-col lg:flex-row items-center gap-10">
                         <img src="/step1.jpg" alt="Request a Quote" className="w-full lg:w-1/2 h-64 object-cover rounded-lg shadow-lg" />
                         <div className="w-full lg:w-1/2">
-                            <ClipboardCheck className="h-12 w-12 text-[#004B49] mb-3" />
+                            <ClipboardCheck className="h-12 w-12 text-[#5739bb] mb-3" />
                             <h3 className="text-2xl font-semibold text-gray-800">Request a Quote</h3>
                             <p className="text-gray-600">
-                                Simply fill out our form or give  us a quick call to get a custom cleaning quote.
+                                Simply fill out our form or give us a quick call to get a custom cleaning quote.
                             </p>
                         </div>
                     </div>
@@ -35,7 +35,7 @@ const HowItWorks = () => {
                     <div className="flex flex-col lg:flex-row-reverse items-center gap-10">
                         <img src="/step2.jpg" alt="Get Matched" className="w-full lg:w-1/2 h-64 object-cover rounded-lg shadow-lg" />
                         <div className="w-full lg:w-1/2">
-                            <UserCheck className="h-12 w-12 text-[#004B49] mb-3" />
+                            <UserCheck className="h-12 w-12 text-[#5739bb] mb-3" />
                             <h3 className="text-2xl font-semibold text-gray-800">Get Matched</h3>
                             <p className="text-gray-600">
                                 Our system connects you with a certified Neaten cleaning expert for your specific needs.
@@ -47,7 +47,7 @@ const HowItWorks = () => {
                     <div className="flex flex-col lg:flex-row items-center gap-10">
                         <img src="/step3.jpg" alt="Cleaning Service" className="w-full lg:w-1/2 h-64 object-cover rounded-lg shadow-lg" />
                         <div className="w-full lg:w-1/2">
-                            <Sparkles className="h-12 w-12 text-[#004B49] mb-3" />
+                            <Sparkles className="h-12 w-12 text-[#5739bb] mb-3" />
                             <h3 className="text-2xl font-semibold text-gray-800">We Clean, You Relax</h3>
                             <p className="text-gray-600">
                                 Our professional cleaners arrive on time and handle everything with top-quality service.
@@ -59,7 +59,7 @@ const HowItWorks = () => {
                     <div className="flex flex-col lg:flex-row-reverse items-center gap-10">
                         <img src="/step4.jpg" alt="Enjoy a Spotless Space" className="w-full lg:w-1/2 h-64 object-cover rounded-lg shadow-lg" />
                         <div className="w-full lg:w-1/2">
-                            <ShieldCheck className="h-12 w-12 text-[#004B49] mb-3" />
+                            <ShieldCheck className="h-12 w-12 text-[#5739bb] mb-3" />
                             <h3 className="text-2xl font-semibold text-gray-800">Enjoy Your Spotless Space</h3>
                             <p className="text-gray-600">
                                 Relax knowing your home or office is clean, sanitized, and fresh—guaranteed.

@@ -29,10 +29,14 @@ const HeroSection = () => {
                 Eco-friendly, reliable, and 100% satisfaction guaranteed.
               </p>
               <div className="mt-6">
-                <Link to='/quote' className="bg-[#004B49] text-white px-6 py-3 rounded-md hover:bg-[#02665E] transition">
-                  Get a Free Quote
-                </Link>
-              </div>
+  <Link
+    to="/quote"
+    className="bg-[#5739bb] text-white px-6 py-3 rounded-md hover:bg-[#3e2b8a] transition"
+  >
+    Get a Free Quote
+  </Link>
+</div>
+
             </div>
 
             {/* Right Side: Empty for Balance (Optional Future Image/Animation) */}

@@ -8,34 +8,32 @@ const CommercialServices = () => {
   return (
     <section className="w-full text-gray-900 pt-24 pb-20 bg-white">
       
-{/* 🔥 Section Intro */}
-<div className="max-w-7xl mx-auto px-6 lg:px-14 text-left border-l-4 border-[#00796B] pl-6 mb-12">
-  <h1 className="text-5xl font-extrabold leading-tight text-gray-900 mb-4">
-    Expert Cleaning for 
-    <span className="text-[#009688]"> Commercial Spaces</span>
-  </h1>
-  <p className="text-lg text-gray-700 max-w-4xl leading-relaxed">
-    A <strong className="text-gray-900">well-maintained workspace</strong> is key to  
-    <strong className="text-[#00796B]"> productivity</strong> and  
-    <strong className="text-[#009688]"> professionalism</strong>. 
-    Our expert cleaning services ensure your  
-    <strong className="text-gray-900"> business, office, or industrial space</strong> remains  
-    <span className="text-gray-800 font-medium"> pristine, hygienic, and inviting</span>.
-  </p>
-  <button
-    onClick={() => navigate(-1)}
-    className="mt-6 px-6 py-3 bg-[#00796B] text-white font-semibold rounded-md hover:bg-[#005F56] transition-all shadow-md"
-  >
-    ← Back to Services
-  </button>
-</div>
-
+      {/* 🔥 Section Intro */}
+      <div className="max-w-7xl mx-auto px-6 lg:px-14 text-left border-l-4 border-[#6a4dd5] pl-6 mb-12">
+        <h1 className="text-5xl font-extrabold leading-tight text-gray-900 mb-4">
+          Expert Cleaning for 
+          <span className="text-[#6a4dd5]"> Commercial Spaces</span>
+        </h1>
+        <p className="text-lg text-gray-700 max-w-4xl leading-relaxed">
+          A <strong className="text-gray-900">well-maintained workspace</strong> is key to  
+          <strong className="text-[#6a4dd5]"> productivity</strong> and  
+          <strong className="text-[#6a4dd5]"> professionalism</strong>. 
+          Our expert cleaning services ensure your  
+          <strong className="text-gray-900"> business, office, or industrial space</strong> remains  
+          <span className="text-gray-800 font-medium"> pristine, hygienic, and inviting</span>.
+        </p>
+        <button
+          onClick={() => navigate(-1)}
+          className="mt-6 px-6 py-3 bg-[#6a4dd5] text-white font-semibold rounded-md hover:bg-[#5336af] transition-all shadow-md"
+        >
+          ← Back to Services
+        </button>
+      </div>
 
       {/* 📌 Why Choose Us? */}
       <div className="max-w-7xl mx-auto px-6 lg:px-12 mt-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
-        
         <div className="flex items-start space-x-4">
-          <Briefcase className="text-[#00796B] w-10 h-10" />
+          <Briefcase className="text-[#6a4dd5] w-10 h-10" />
           <div>
             <h3 className="text-xl font-semibold">Tailored for Businesses</h3>
             <p className="text-gray-600">Custom cleaning solutions designed for corporate environments.</p>
@@ -43,7 +41,7 @@ const CommercialServices = () => {
         </div>
 
         <div className="flex items-start space-x-4">
-          <Sparkles className="text-[#00796B] w-10 h-10" />
+          <Sparkles className="text-[#6a4dd5] w-10 h-10" />
           <div>
             <h3 className="text-xl font-semibold">Advanced Sanitization</h3>
             <p className="text-gray-600">Using hospital-grade disinfectants, we ensure a germ-free workspace.</p>
@@ -51,7 +49,7 @@ const CommercialServices = () => {
         </div>
 
         <div className="flex items-start space-x-4">
-          <Building className="text-[#00796B] w-10 h-10" />
+          <Building className="text-[#6a4dd5] w-10 h-10" />
           <div>
             <h3 className="text-xl font-semibold">Certified Professionals</h3>
             <p className="text-gray-600">Our trained cleaning staff meet the highest industry standards.</p>
@@ -59,7 +57,7 @@ const CommercialServices = () => {
         </div>
 
         <div className="flex items-start space-x-4">
-          <CheckCircle className="text-[#00796B] w-10 h-10" />
+          <CheckCircle className="text-[#6a4dd5] w-10 h-10" />
           <div>
             <h3 className="text-xl font-semibold">Reliable & On-Time</h3>
             <p className="text-gray-600">We stick to schedules and deliver consistent, high-quality results.</p>
@@ -69,11 +67,10 @@ const CommercialServices = () => {
 
       {/* 📌 Our Services Breakdown */}
       <div className="max-w-7xl mx-auto px-6 lg:px-12 mt-20">
-        <h2 className="text-4xl font-bold text-gray-900 border-b-4 border-[#00796B] pb-2 mb-10">Commercial Cleaning Services</h2>
+        <h2 className="text-4xl font-bold text-gray-900 border-b-4 border-[#6a4dd5] pb-2 mb-10">Commercial Cleaning Services</h2>
         
         <div className="grid grid-cols-1 md:grid-cols-2 gap-16">
-          
-          {[ 
+          {[
             {
               title: "Janitorial Services",
               desc: "Daily office cleaning including dusting, waste management, and restroom sanitation for a professional workspace.",
@@ -125,7 +122,7 @@ const CommercialServices = () => {
                 src={service.img} 
                 alt={service.title} 
                 className="w-36 h-36 rounded-lg object-cover shadow-md"
-                style={{ minWidth: "144px", minHeight: "144px" }} // Ensures all images have same aspect ratio
+                style={{ minWidth: "144px", minHeight: "144px" }}
               />
               <div>
                 <h3 className="text-2xl font-semibold text-gray-800">{service.title}</h3>

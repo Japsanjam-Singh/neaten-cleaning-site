@@ -5,11 +5,12 @@ function ContactUs() {
         <div className="bg-[#F8F9FA] min-h-screen pt-32 pb-20 px-4 sm:px-6">
             <div className="max-w-6xl mx-auto">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-start">
+                    
                     {/* Left Side - Textual Info */}
                     <div className="space-y-6">
                         <h2 className="text-4xl sm:text-5xl font-extrabold leading-tight text-gray-900">
                             Talk Clean <br />
-                            <span className="text-[#00A896]">With Neaten</span>
+                            <span className="text-[#6a4dd5]">With Neaten</span>
                         </h2>
 
                         <p className="text-gray-700 leading-relaxed">
@@ -24,7 +25,7 @@ function ContactUs() {
                         </p>
 
                         <div className="space-y-2 mt-6">
-                            <h3 className="text-xl font-semibold text-[#00A896]">Contact Details</h3>
+                            <h3 className="text-xl font-semibold text-[#6a4dd5]">Contact Details</h3>
                             <p className="text-gray-700"><strong>Email:</strong> neaten.inc@gmail.com</p>
                             <p className="text-gray-700"><strong>Phone:</strong> (236) 550-0090</p>
                             <p className="text-gray-700">
@@ -37,7 +38,7 @@ function ContactUs() {
                                 Ready to get started? Click below to request a free, no-obligation quote tailored to your space and needs.
                             </p>
                             <Link to="/quote">
-                                <button className="mt-4 w-full sm:w-auto px-6 py-3 bg-[#00A896] text-white font-medium rounded-md hover:bg-[#00796B] transition">
+                                <button className="mt-4 w-full sm:w-auto px-6 py-3 bg-[#6a4dd5] text-white font-medium rounded-md hover:bg-[#5336af] transition">
                                     Request a Free Quote
                                 </button>
                             </Link>

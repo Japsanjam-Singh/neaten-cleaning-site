@@ -7,15 +7,15 @@ const ServicesSummary = () => {
       <div className="max-w-7xl mx-auto px-6 lg:px-12">
         
         {/* 🏆 Section Header */}
-        <div className="text-left border-l-4 border-[#00796B] pl-6 mb-10">
+        <div className="text-left border-l-4 border-[#6a4dd5] pl-6 mb-10">
           <h2 className="text-4xl font-extrabold text-gray-900 leading-tight">
-            A Commitment to <span className="text-[#00796B]">Excellence in Every Clean</span>
+            A Commitment to <span className="text-[#6a4dd5]">Excellence in Every Clean</span>
           </h2>
           <p className="mt-3 text-lg text-gray-700 max-w-3xl leading-relaxed">
             At <strong>Neaten</strong>, we deliver <strong>high-quality, tailored cleaning solutions</strong> 
             designed for both <strong>commercial and residential spaces</strong>. Whether you need a 
             <strong> one-time deep clean</strong> or <strong>routine maintenance</strong>, our expertise ensures 
-            <strong>flawless results</strong> every time.
+            <strong> flawless results</strong> every time.
           </p>
         </div>
 
@@ -31,7 +31,7 @@ const ServicesSummary = () => {
             { title: "Sanitization & Disinfection", desc: "Comprehensive sanitization for workplaces and homes, ensuring a germ-free environment." }
           ].map((service, index) => (
             <div key={index} className="flex items-start space-x-4">
-              <CheckCircle className="text-[#00796B] w-7 h-7 mt-1" />
+              <CheckCircle className="text-[#6a4dd5] w-7 h-7 mt-1" />
               <div>
                 <h3 className="text-xl font-semibold text-gray-800">{service.title}</h3>
                 <p className="text-gray-700 mt-1 leading-relaxed">{service.desc}</p>

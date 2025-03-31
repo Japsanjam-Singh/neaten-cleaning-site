@@ -1,4 +1,5 @@
 import { Brush, Building2, Sparkles, Factory, Home, SprayCan } from "lucide-react"
+import { Link } from "react-router-dom"
 
 const OurServices = () => {
     return (
@@ -7,7 +8,7 @@ const OurServices = () => {
                 
                 {/* Section Heading */}
                 <div className="mb-12">
-                    <h2 className="text-4xl font-bold text-[#004B49]">
+                    <h2 className="text-4xl font-bold text-[#3e2b8a]">
                         Services At your Fingertips
                     </h2>
                     <p className="mt-3 text-gray-600 max-w-3xl">
@@ -25,7 +26,7 @@ const OurServices = () => {
                         
                         {/* Service 1 */}
                         <div className="flex items-start space-x-5">
-                            <Building2 className="h-10 w-10 text-[#004B49]" />
+                            <Building2 className="h-10 w-10 text-[#5739bb]" />
                             <div>
                                 <h3 className="text-xl font-semibold text-gray-800">Commercial Cleaning</h3>
                                 <p className="text-gray-600">
@@ -36,7 +37,7 @@ const OurServices = () => {
 
                         {/* Service 2 */}
                         <div className="flex items-start space-x-5">
-                            <Home className="h-10 w-10 text-[#004B49]" />
+                            <Home className="h-10 w-10 text-[#5739bb]" />
                             <div>
                                 <h3 className="text-xl font-semibold text-gray-800">Residential Cleaning</h3>
                                 <p className="text-gray-600">
@@ -47,7 +48,7 @@ const OurServices = () => {
 
                         {/* Service 3 */}
                         <div className="flex items-start space-x-5">
-                            <Factory className="h-10 w-10 text-[#004B49]" />
+                            <Factory className="h-10 w-10 text-[#5739bb]" />
                             <div>
                                 <h3 className="text-xl font-semibold text-gray-800">Post-Construction Cleaning</h3>
                                 <p className="text-gray-600">
@@ -63,7 +64,7 @@ const OurServices = () => {
                         
                         {/* Service 4 */}
                         <div className="flex items-start space-x-5">
-                            <Sparkles className="h-10 w-10 text-[#004B49]" />
+                            <Sparkles className="h-10 w-10 text-[#5739bb]" />
                             <div>
                                 <h3 className="text-xl font-semibold text-gray-800">Carpet & Floor Care</h3>
                                 <p className="text-gray-600">
@@ -74,7 +75,7 @@ const OurServices = () => {
 
                         {/* Service 5 */}
                         <div className="flex items-start space-x-5">
-                            <Brush className="h-10 w-10 text-[#004B49]" />
+                            <Brush className="h-10 w-10 text-[#5739bb]" />
                             <div>
                                 <h3 className="text-xl font-semibold text-gray-800">Move-In/Move-Out Cleaning</h3>
                                 <p className="text-gray-600">
@@ -85,7 +86,7 @@ const OurServices = () => {
 
                         {/* Service 6 */}
                         <div className="flex items-start space-x-5">
-                            <SprayCan className="h-10 w-10 text-[#004B49]" />
+                            <SprayCan className="h-10 w-10 text-[#5739bb]" />
                             <div>
                                 <h3 className="text-xl font-semibold text-gray-800">Disinfection & Sanitization</h3>
                                 <p className="text-gray-600">
@@ -100,9 +101,9 @@ const OurServices = () => {
 
                 {/* CTA Button */}
                 <div className="mt-12">
-                    <a href="#" className="bg-[#004B49] text-white px-6 py-3 rounded-md hover:bg-[#02665E] transition">
+                    <Link to='/services' className="bg-[#5739bb] text-white px-6 py-3 rounded-md hover:bg-[#3e2b8a] transition">
                         View All Services
-                    </a>
+                    </Link>
                 </div>
 
             </div>
