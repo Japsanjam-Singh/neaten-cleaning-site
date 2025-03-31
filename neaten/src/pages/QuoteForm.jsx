@@ -10,6 +10,7 @@ function QuoteForm() {
         message: '',
         referral: ''
     });
+    const [submitted, setSubmitted] = useState(false);
 
     const handleChange = (e) => {
         const { name, value } = e.target;
@@ -48,7 +49,6 @@ function QuoteForm() {
             alert("Server error. Please try again later.");
         }
     };
-    const [submitted, setSubmitted] = useState(false);
 
 
     return (
