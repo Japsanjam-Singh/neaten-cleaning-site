@@ -22,7 +22,7 @@ function QuoteForm() {
     e.preventDefault();
 
     try {
-      const response = await fetch("https://neaten-backend.onrender.com", {
+      const response = await fetch("https://neaten-backend.onrender.com/api/send", {
         method: "POST",
         headers: {
           "Content-Type": "application/json"
